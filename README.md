@@ -1,6 +1,12 @@
 # speech
 
-This is speech recognition model based on deep learning neural networks written in Python using Pytorch Lightning using CTCLoss.
+This is speech recognition model based on deep learning neural networks written in Python using Pytorch Lightning.
+
+
+Structure:
+Network: Conv1D -> Dense -> LSTM -> Dense
+Loss: CTCLoss
+
 
 1). Install packages from 'requirements.txt' in your environment.
 2). Link to kazakh speech dataset: https://www.openslr.org/102/
